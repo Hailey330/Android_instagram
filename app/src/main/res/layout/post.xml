@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--인스타그램 본문-->
+
+        <include layout="@layout/layout_top" />
+        <include layout="@layout/layout_content" />
+        <include layout="@layout/layout_remote" />
+        <include layout="@layout/layout_like" />
+        <include layout="@layout/layout_write" />
+        <include layout="@layout/layout_comment" />
+        <include layout="@layout/layout_time" />
+
+
+</LinearLayout>
